@@ -1,0 +1,76 @@
+---
+title: 📋 Bitacora del programador 
+description: Soy Desarrollador de software full-stack 🖥️ con experiencia en una variedad de lenguajes y tecnologías. 
+head:
+  - tag: title
+    content: Starlight 🌟 Build documentation sites with Astro
+hero:
+  title: <span>🙋‍♂️¡Hola! <br/> Soy Angel Riera</span>
+  tagline: Desarrollador de software full-stack  👨‍💻 Poseo más de 9 años de experiencia en el mundo digital 🌐, con conocimientos en diversas áreas de la economía digital, como marketing digital 📈, SEO 🔍, videomarketing 🎥, community management 🤝, diseño UX 🎨, diseño de producto 📦 y WEB 3.0.
+  # image:
+  #   file: ~/assets/bg/bg-skills.png
+  actions:
+    - text: GitHub
+      icon: external
+      link: https://github.com/CodeRagnarok07
+
+template: splash
+# title: Starlight 🌟 Build documentation sites with Astro
+# head:
+#   - tag: title
+#     content: Starlight 🌟 Build documentation sites with Astro
+# description: Starlight helps you build beautiful, high-performance documentation websites with Astro.
+# template: splash
+# editUrl: false
+# lastUpdated: false
+# hero:
+#   title: Make your docs shine with Starlight
+#   tagline: Everything you need to build a stellar documentation website. Fast, accessible, and easy-to-use.
+#   image:
+#     file: ~/assets/hero-star.webp
+#   actions:
+#     - text: Get started
+#       icon: right-arrow
+#       variant: primary
+#       link: /getting-started/
+#     - text: View on GitHub
+#       icon: external
+#       link: https://github.com/withastro/starlight
+---
+
+import HeroStartlight from "@/components/starlight/Hero.astro"
+import Skills from '@/components/starlight/Skills.astro';
+import CardTumbail from "@/components/starlight/Card-Tumbail.astro";
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+
+
+
+## [Blog y Recursos](/blog/)
+<CardGrid stagger>
+    {/* description="Conoce el interprete de python" */}
+  <LinkCard
+    title="Python"
+    href="/blog/python"
+  />
+  <LinkCard
+    title="Javascript"
+    href="/blog/01_javascript"
+  />
+</CardGrid>
+
+
+<section class="relative">
+<img class="absolute object-fixed inset-y-0 right-0 -z-10" src="../../assets/bg/bg-skills.png" alt=""/>
+
+# Skills 
+<Skills/>
+
+
+<br/>
+<br/>
+<br/>
+
+</section>
+

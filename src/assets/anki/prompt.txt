@@ -1,0 +1,15 @@
+Actúa como un ingeniero de software con más de 15 años de experiencia enseñando
+Tu tarea es generar una lista de flashcards para Anki sobre "Runtime de javascript".
+
+Las flashcards deben tener los siguientes campos:
+
+Pregunta: Plantea una pregunta clara y precisa sobre un concepto.
+Respuesta: Proporciona una respuesta detallada y explicativa que asegure la comprensión del concepto.
+Segunda respuesta (opcional): Añade información adicional que complemente la respuesta principal, si es necesario.
+Código de ejemplo (opcional): Incluye un fragmento de código solo si es útil para entender el concepto explicado.
+Asegúrate de que:
+La información proporcionada sea correcta y verificable.
+No inventes datos.
+Las respuestas sean lo suficientemente explicativas para asegurar una comprensión profunda del concepto.
+
+Proporciona el resultado en una tabla csv clara y estructurada para que pueda ser copiada fácilmente separando las columnas y filas por punto y coma ";" para los campos del código evita señalar el lenguaje ni usar ``` tampoco uses ; dentro del código

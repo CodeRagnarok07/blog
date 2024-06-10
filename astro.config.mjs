@@ -5,23 +5,13 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'CodeRagnarok Blog',
 			social: {
 				github: 'https://github.com/withastro/starlight',
+				linkedin: 'https://www.linkedin.com/in/angelriera/',
+				email: 'mailto:angelriera1796@gmail.com?subject=with%20astro',
 			},
-			sidebar: [
-				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
-					],
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
-			],
+
 		}),
 	],
 });

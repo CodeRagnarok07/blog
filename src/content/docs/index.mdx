@@ -1,36 +1,32 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Docs Ingenieria de Software.
+description: CodeRagnarok | Docs Ingenieria de Software.
 template: splash
+sidebar:
+  # Set a custom label for the link
+  label: volver
 hero:
-  tagline: Congrats on setting up a new Starlight project!
-  image:
-    file: ../../assets/houston.webp
+  tagline: Descubre, aprende y domina el arte de la programación y la ingeniería de software! <br/> Además, abordare temas de diseño UX/UI y marketing digital, para que puedas tener una visión completa de lo que significa ser un ingeniero de software en el mundo actual.
+
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: sobre mi
+      link: https://coderagnarok07.github.io/#contact
       icon: right-arrow
-      variant: primary
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
+    
+    - text: Portafolio
+      link: https://coderagnarok07.github.io/
       icon: external
+	    variant: primary
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Comenzamos 
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+  <a href="/js">
+    <Card title="Javascript" icon="setting" link="/hola mundo" >
+      Javascript
+    </Card>
+  </a>
 </CardGrid>

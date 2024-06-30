@@ -2,7 +2,7 @@
 title: El Event Loop
 description: Un mecanismo fundamental para la ejecución no bloqueante.
 sidebar:
-  label: Runtime
+  label: EventLoop
   order: 1
 ---
 
